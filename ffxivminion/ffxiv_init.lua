@@ -680,6 +680,11 @@ function ml_global_information.Init()
 		ml_mesh_mgr.SetDefaultMesh(587, "[Raid] The Soul of the Creator", enforce) -- a12s
 		
 		-- Raids SB
+		ml_mesh_mgr.SetDefaultMesh(690, "The Interdimensional Rift", enforce)
+                ml_mesh_mgr.SetDefaultMesh(724, "The Interdimensional Rift", enforce)
+		ml_mesh_mgr.SetDefaultMesh(658, "The Interdimensional Rift2", enforce)
+                ml_mesh_mgr.SetDefaultMesh(756, "The Interdimensional Rift2", enforce)
+                ml_mesh_mgr.SetDefaultMesh(807, "The Interdimensional Rift2", enforce)
 		--ml_mesh_mgr.SetDefaultMesh(???, "[Raid] Omega Deltascape", enforce)
 		--ml_mesh_mgr.SetDefaultMesh(???, "[Raid] Omega Deltascape Savag)", enforce)
 		--ml_mesh_mgr.SetDefaultMesh(???, "[Raid] The Unending Coil of Bahamut Ultimate", enforce)
@@ -1535,7 +1540,7 @@ function ml_global_information.Init()
 				[655] = "Kobai Goten Apartment",
 				[656] = "The Diadem",
 				[657] = "The Ruby Sea",
-				[658] = "The Interdimensional Rift",
+				[658] = "The Interdimensional Rift2",
 				[659] = "Rhalgr's Reach",
 				[660] = "Doma Castle",
 				[661] = "Castrum Abania",
@@ -1632,7 +1637,7 @@ function ml_global_information.Init()
 				[753] = "Sigmascape V2.0",
 				[754] = "Sigmascape V3.0",
 				[755] = "Sigmascape V4.0",
-				[756] = "The Interdimensional Rift",
+				[756] = "The Interdimensional Rift2",
 				[757] = "The Ruby Sea",
 				[758] = "The Jade Stoa",
 				[759] = "The Doman Enclave",
@@ -1683,7 +1688,7 @@ function ml_global_information.Init()
 				[804] = "The Interdimensional Rift",
 				[805] = "The Interdimensional Rift",
 				[806] = "Kugane Ohashi",
-				[807] = "The Interdimensional Rift",
+				[807] = "The Interdimensional Rift2",
 				[808] = "The Interdimensional Rift",
 				[809] = "Haunted Manor",
 				[810] = "Hells' Kier",
