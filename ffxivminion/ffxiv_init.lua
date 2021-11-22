@@ -740,7 +740,7 @@ function ml_global_information.Init()
 		ml_mesh_mgr.SetDefaultMesh(947, "[Raid] Laxan Loft", enforce)
 		ml_mesh_mgr.SetDefaultMesh(948, "[Raid] Bygone Gaol", enforce)
 		ml_mesh_mgr.SetDefaultMesh(949, "[Raid] The Garden of Nowhere", enforce)
-	
+	        
 		
 		-- Class Duties
 		ml_mesh_mgr.SetDefaultMesh(228, "North Shroud", true)
@@ -994,6 +994,9 @@ function ml_global_information.Init()
 		ml_mesh_mgr.SetDefaultMesh(901, "The Diadem", true)
 		ml_mesh_mgr.SetDefaultMesh(929, "The Diadem", true)
 		ml_mesh_mgr.SetDefaultMesh(939, "The Diadem", true)
+		
+		ml_mesh_mgr.SetDefaultMesh(895, "Excavation Tunnel", true)
+
 		
 	end
 	
@@ -1723,6 +1726,7 @@ function ml_global_information.Init()
 				[834] = "The Howling Eye",
 				[839] = "East Shroud",
 				[843] = "The Pendants Personal Suite",
+				[895] = "Excavation Tunnels",
 				[915] = "Gangos",
 			}
 			ml_mesh_mgr.GetMapNameByMapID = function (mapid) 
